@@ -1,4 +1,4 @@
-const pokemonList = [
+let Pokemon = [
   {id: 4, name: 'Charmander', type: 'fire', base_experience: 62},
   {id: 7, name: 'Squirtle', type: 'water', base_experience: 63},
   {id: 11, name: 'Metapod', type: 'bug', base_experience: 72},
@@ -9,4 +9,4 @@ const pokemonList = [
   {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
 ]
 
-export  {pokemonList}
+export default Pokemon

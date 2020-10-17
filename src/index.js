@@ -1,13 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PokeDex } from './app/PokeDex'
+import App from './App';
 
-function App() {
-  return (
-    <div>
-      <PokeDex />
-    </div>
-  )
-}
-
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'));
